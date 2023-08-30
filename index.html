@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GradePoint Calculator</title>
+    <!--Css link-->
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-box">
+            <h1>Result</h1>
+            <div class="p-g-t">
+                <h2>Percentage- <span class="per"></span></h2>
+                <h2>Grade- <span class="gra"></span></h2>
+                <h2>Total- <span class="to"></span></h2>
+            </div>
+        </div>
+        <div class="content">
+            <div class="right-box">
+                <input type="number" id="Ban" placeholder="Bangla">
+                <input type="number" id="Eng" placeholder="English">
+                <input type="number" id="Mth" placeholder="Math">
+                <input type="number" id="Rel" placeholder="Religion">
+                <input type="number" id="I" placeholder="Ict">
+                <button type="button" onclick="show_result()">Show Result</button>
+            </div>
+        </div>
+        <div class="result">
+            <h2></h2>
+        </div>
+    </div>
+    
+
+    <!--Java Script link-->
+    <script src="Js/app.js"></script>
+
+</body>
+</html>
